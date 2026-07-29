@@ -1,0 +1,233 @@
+THIÊN HÙNG SỬ — 117 HIỂN THÁNH TỬ ĐẠO VIỆT NAM
+Sách nói — 114 phần
+
+Mở index.html (hoặc chạy: node serve.js) để vừa nghe vừa đọc.
+
+000a_loi-tua.mp3   [8:19]
+    Lời tựa
+000b_tam-thu.mp3   [1:39]
+    Tâm thư
+000c_giai-thich-buc-hoa-cac-thanh-tu-dao-viet-nam.mp3   [5:59]
+    Giải thích bức họa các Thánh Tử Đạo Việt Nam
+000d_bai-giang-cua-duc-giao-hoang-gioan-phaolo-hai-trong-dai-le-t.mp3   [14:17]
+    Bài giảng của Đức Giáo Hoàng Gioan Phaolô Hai trong Đại Lễ Tôn Vinh Hiển Thánh
+001_daminh-pham-trong-kham.mp3   [2:32]
+    Thánh Đaminh PHẠM TRỌNG KHẢM  —  tử đạo 13/1
+002_giuse-pham-trong-ta-luca-pham-trong-thin.mp3   [10:51]
+    Thánh Giuse PHẠM TRỌNG TẢ & Luca PHẠM TRỌNG THÌN  —  tử đạo 13/1
+003_phanxico-federich-te.mp3   [17:50]
+    Thánh Phanxicô FEDERICH TẾ  —  tử đạo 22/1
+004_toma-khuong.mp3   [5:03]
+    Thánh Tôma KHUÔNG  —  tử đạo 30/1
+005_gioan-theophane-venard-ven.mp3   [9:56]
+    Thánh Gioan Théophane VÉNARD VEN  —  tử đạo 2/2
+006_phaolo-le-van-loc.mp3   [4:41]
+    Thánh Phaolô LÊ VĂN LỘC  —  tử đạo 13/2
+007_daminh-cam.mp3   [4:03]
+    Thánh Đaminh CẨM  —  tử đạo 11/3
+008_daminh-vu-dinh-tuoc.mp3   [5:03]
+    Thánh Đaminh VŨ ĐÌNH TƯỚC  —  tử đạo 2/4
+009_phaolo-le-bao-tinh.mp3   [12:59]
+    Thánh Phaolô LÊ BẢO TỊNH  —  tử đạo 6/4
+010_phero-nguyen-van-luu.mp3   [4:09]
+    Thánh Phêrô NGUYỄN VĂN LỰU  —  tử đạo 7/4
+011_laurenso-nguyen-van-huong.mp3   [6:21]
+    Thánh Laurensô NGUYỄN VĂN HƯỞNG  —  tử đạo 27/4
+012_phaolo-pham-khac-khoan-phero-nguyen-van-hieu-gioan-baotixita.mp3   [9:16]
+    Thánh Phaolô PHẠM KHẮC KHOAN & Phêrô NGUYỄN VĂN HIẾU & Gioan Baotixita ĐINH VĂN THÀNH  —  tử đạo 28/4
+013_giuse-tuan-hoan.mp3   [4:01]
+    Thánh Giuse TUÂN (HOAN)  —  tử đạo 29/4
+014_augustino-schoeffler-dong.mp3   [8:32]
+    Thánh Augustinô SCHOEFFLER ĐÔNG  —  tử đạo 1/5
+015_gioan-louis-bonnard-huong.mp3   [9:10]
+    Thánh Gioan Louis BONNARD HƯƠNG  —  tử đạo 1/5
+016_giuse-nguyen-van-luu.mp3   [4:48]
+    Thánh Giuse NGUYỄN VĂN LỰU  —  tử đạo 2/5
+017_giuse-hien.mp3   [5:23]
+    Thánh Giuse HIỂN  —  tử đạo 9/5
+018_mattheu-le-van-gam.mp3   [7:41]
+    Thánh Matthêu LÊ VĂN GẪM  —  tử đạo 11/5
+019_micae-ho-dinh-hy.mp3   [9:01]
+    Thánh Micae HỒ ĐÌNH HY  —  tử đạo 22/5
+020_laurenso-ngon.mp3   [5:05]
+    Thánh Laurensô NGÔN  —  tử đạo 22/5
+021_phero-doan-van-van.mp3   [4:33]
+    Thánh Phêrô ĐOÀN VĂN VÂN  —  tử đạo 25/5
+022_gioan-doan-trinh-hoan.mp3   [6:21]
+    Thánh Gioan ĐOÀN TRINH HOAN  —  tử đạo 26/5
+023_mattheu-nguyen-van-phuong.mp3   [5:25]
+    Thánh Matthêu NGUYỄN VĂN PHƯỢNG  —  tử đạo 26/5
+024_phaolo-hanh.mp3   [3:45]
+    Thánh Phaolô HẠNH  —  tử đạo 28/5
+025_giuse-tuc.mp3   [5:17]
+    Thánh Giuse TÚC  —  tử đạo 1/6
+026_daminh-ninh.mp3   [3:36]
+    Thánh Đaminh NINH  —  tử đạo 2/6
+027_phaolo-dong-duong.mp3   [4:37]
+    Thánh Phaolô ĐỔNG (DƯƠNG)  —  tử đạo 3/6
+028_luca-vu-ba-loan.mp3   [8:57]
+    Thánh Luca VŨ BÁ LOAN  —  tử đạo 5/6
+029_daminh-toai-daminh-huyen.mp3   [4:29]
+    Thánh Đaminh TOẠI & Đaminh HUYÊN  —  tử đạo 5/6
+030_phero-dinh-van-dung-phero-dinh-van-thuan.mp3   [4:41]
+    Thánh Phêrô ĐINH VĂN DŨNG & Phêrô ĐINH VĂN THUẦN  —  tử đạo 6/6
+031_vinh-son-duong.mp3   [3:59]
+    Thánh Vinh Sơn DƯƠNG  —  tử đạo 6/6
+032_giuse-tran-van-tuan.mp3   [4:12]
+    Thánh Giuse TRẦN VĂN TUẤN  —  tử đạo 7/6
+033_augustino-phan-viet-huy-nicolas-bui-duc-the-daminh-dinh-dat.mp3   [14:55]
+    Thánh Augustinô PHAN VIẾT HUY & Nicolas BÙI ĐỨC THỂ & Đaminh ĐINH ĐẠT  —  tử đạo 13/6
+034_anre-tuong-vinh-son-tuong-daminh-nguyen-duc-mao-daminh-nhi.mp3   [8:20]
+    Thánh Anrê TƯỜNG & Vinh Sơn TƯƠNG & Đaminh NGUYỄN ĐỨC MẠO & Đaminh NHI  —  tử đạo 16/6
+035_phero-da.mp3   [2:44]
+    Thánh Phêrô ĐA  —  tử đạo 17/6
+036_daminh-henares-minh-xuan.mp3   [12:45]
+    Thánh Đaminh HENARES MINH (XUÂN)  —  tử đạo 26/6
+037_phanxico-do-van-chieu.mp3   [7:11]
+    Thánh Phanxicô ĐỖ VĂN CHIỂU  —  tử đạo 26/6
+038_toma-toan.mp3   [4:39]
+    Thánh Tôma TOÁN  —  tử đạo 27/6
+039_vinh-son-do-yen.mp3   [7:16]
+    Thánh Vinh Sơn ĐỖ YẾN  —  tử đạo 30/6
+040_philiphe-phan-van-minh.mp3   [6:42]
+    Thánh Philiphê PHAN VĂN MINH  —  tử đạo 3/7
+041_giuse-nguyen-dinh-uyen.mp3   [5:42]
+    Thánh Giuse NGUYỄN ĐÌNH UYỂN  —  tử đạo 4/7
+042_phero-nguyen-khac-tu.mp3   [5:29]
+    Thánh Phêrô NGUYỄN KHẮC TỰ  —  tử đạo 10/7
+043_anton-nguyen-huu-quynh-nam.mp3   [8:30]
+    Thánh Antôn NGUYỄN HỮU QUỲNH (NĂM)  —  tử đạo 10/7
+044_ignatio-delgado-y.mp3   [13:48]
+    Thánh Ignatiô DELGADO Y  —  tử đạo 12/7
+045_ane-le-thi-thanh-ba-thanh-de.mp3   [8:08]
+    Thánh Anê LÊ THỊ THÀNH (Bà Thánh Đê)  —  tử đạo 12/7
+046_phero-khanh.mp3   [5:18]
+    Thánh Phêrô KHANH  —  tử đạo 12/7
+047_phero-nguyen-ba-tuan.mp3   [5:31]
+    Thánh Phêrô NGUYỄN BÁ TUẦN  —  tử đạo 15/7
+048_anre-nguyen-kim-thong-nam-thong.mp3   [5:12]
+    Thánh Anrê NGUYỄN KIM THÔNG (NĂM THÔNG)  —  tử đạo 15/7
+050_giuse-diaz-sanjurjo-an.mp3   [10:51]
+    Thánh Giuse Diaz SANJURJO AN  —  tử đạo 20/7
+051_giuse-fernandez-hien.mp3   [9:15]
+    Thánh Giuse FERNANDEZ HIỀN  —  tử đạo 24/7
+052_sampedro-xuyen.mp3   [9:50]
+    Thánh SAMPEDRO XUYÊN  —  tử đạo 28/7
+053_phero-doan-cong-quy.mp3   [8:54]
+    Thánh Phêrô ĐOÀN CÔNG QUÝ  —  tử đạo 31/7
+054_emmanuel-le-van-phung.mp3   [5:12]
+    Thánh Emmanuel LÊ VĂN PHỤNG  —  tử đạo 31/7
+055_bernado-vu-van-due.mp3   [8:27]
+    Thánh Bernadô VŨ VĂN DUỆ  —  tử đạo 1/8
+056_daminh-nguyen-van-hanh.mp3   [7:59]
+    Thánh Đaminh NGUYỄN VĂN HẠNH  —  tử đạo 1/8
+057_giacobe-do-mai-nam.mp3   [4:48]
+    Thánh Giacôbê ĐỖ MAI NĂM  —  tử đạo 12/8
+058_anton-nguyen-dich.mp3   [5:42]
+    Thánh Antôn NGUYỄN ĐÍCH  —  tử đạo 12/8
+059_micae-nguyen-huy-my.mp3   [12:29]
+    Thánh Micae NGUYỄN HUY MỸ  —  tử đạo 12/8
+060_giuse-dang-dinh-vien.mp3   [5:28]
+    Thánh Giuse ĐẶNG ĐÌNH VIÊN  —  tử đạo 21/8
+061_phero-nguyen-van-tu.mp3   [7:49]
+    Thánh Phêrô NGUYỄN VĂN TỰ  —  tử đạo 5/9
+062_giuse-hoang-luong-canh.mp3   [5:13]
+    Thánh Giuse HOÀNG LƯƠNG CẢNH  —  tử đạo 5/9
+063_emmanuel-nguyen-van-trieu.mp3   [7:37]
+    Thánh Emmanuel NGUYỄN VĂN TRIỆU  —  tử đạo 17/9
+064_daminh-trach.mp3   [4:00]
+    Thánh Đaminh TRẠCH  —  tử đạo 18/9
+065_gioan-charles-cornay-tan.mp3   [6:29]
+    Thánh Gioan Charles CORNAY TÂN  —  tử đạo 20/9
+066_phanxico-jaccard-phan-ninh.mp3   [11:27]
+    Thánh Phanxicô JACCARD PHAN (NINH)  —  tử đạo 21/9
+067_toma-tran-van-thien.mp3   [7:29]
+    Thánh Tôma TRẦN VĂN THIỆN  —  tử đạo 21/9
+068_phanxico-tran-van-trung.mp3   [5:07]
+    Thánh Phanxicô TRẦN VĂN TRUNG  —  tử đạo 6/10
+069_phero-le-tuy.mp3   [6:27]
+    Thánh Phêrô LÊ TÙY  —  tử đạo 11/10
+070_isidoro-gagelin-kinh.mp3   [8:49]
+    Thánh Isidôrô GAGELIN KÍNH  —  tử đạo 17/10
+071_phaolo-tong-viet-buong.mp3   [7:35]
+    Thánh Phaolô TỐNG VIẾT BƯỜNG  —  tử đạo 23/10
+072_giuse-le-dang-thi.mp3   [4:45]
+    Thánh Giuse LÊ ĐĂNG THỊ  —  tử đạo 24/10
+073_gioan-dat.mp3   [6:25]
+    Thánh Gioan ĐẠT  —  tử đạo 28/10
+074_jeronimo-hermosilla-vong-liem.mp3   [18:53]
+    Thánh Jeronimô HERMOSILLA VỌNG (LIÊM)  —  tử đạo 1/11
+075_valentino-berrio-ochoa-vinh.mp3   [16:55]
+    Thánh Valentinô BERRIO-OCHOA VINH  —  tử đạo 1/11
+076_phero-almato-binh.mp3   [6:19]
+    Thánh Phêrô ALMATÔ BÌNH  —  tử đạo 11/11
+077_phero-phanxico-neron-bac.mp3   [7:24]
+    Thánh Phêrô Phanxicô NÉRON BẮC  —  tử đạo 3/11
+078_daminh-ha-trong-mau.mp3   [4:19]
+    Thánh Đaminh HÀ TRỌNG MẬU  —  tử đạo 5/11
+079_vinh-son-pham-hieu-liem.mp3   [9:24]
+    Thánh Vinh Sơn PHẠM HIẾU LIÊM  —  tử đạo 7/11
+080_jacinto-castaneda-gia.mp3   [7:30]
+    Thánh Jacintô CASTÃNEDA GIA  —  tử đạo 7/11
+081_giuse-nguyen-dinh-nghi.mp3   [2:24]
+    Thánh Giuse NGUYỄN ĐÌNH NGHI  —  tử đạo 8/11
+082_phaolo-nguyen-ngan.mp3   [1:06]
+    Thánh Phaolô NGUYỄN NGÂN  —  tử đạo 8/11
+083_martino-ta-duc-thinh.mp3   [6:35]
+    Thánh Martinô TẠ ĐỨC THỊNH  —  tử đạo 8/11
+084_martino-tho.mp3   [2:24]
+    Thánh Martinô THỌ  —  tử đạo 8/11
+085_gioan-baotixita-con.mp3   [5:51]
+    Thánh Gioan Baotixita CỎN  —  tử đạo 8/11
+086_stephano-theodore-cuenot-the.mp3   [12:54]
+    Thánh Stêphanô Théodore CÚENOT THỂ  —  tử đạo 14/11
+087_phanxico-nguyen-can.mp3   [8:10]
+    Thánh Phanxicô NGUYỄN CẦN  —  tử đạo 20/11
+088_phero-borie-cao.mp3   [11:11]
+    Thánh Phêrô BORIE CAO  —  tử đạo 24/11
+089_phero-vu-dang-khoa.mp3   [4:58]
+    Thánh Phêrô VŨ ĐĂNG KHOA  —  tử đạo 24/11
+090_vinh-son-nguyen-the-diem.mp3   [4:48]
+    Thánh Vinh Sơn NGUYỄN THẾ ĐIỂM  —  tử đạo 24/11
+091_toma-dinh-viet-du.mp3   [6:50]
+    Thánh Tôma ĐINH VIẾT DỤ  —  tử đạo 26/11
+092_daminh-nguyen-van-xuyen.mp3   [5:51]
+    Thánh Đaminh NGUYỄN VĂN XUYÊN  —  tử đạo 26/11
+093_anre-tran-van-trong.mp3   [6:43]
+    Thánh Anrê TRẦN VĂN TRÔNG  —  tử đạo 28/11
+094_giuse-marchand-du.mp3   [12:46]
+    Thánh Giuse MARCHAND DU  —  tử đạo 30/11
+095_giuse-nguyen-duy-khang.mp3   [6:47]
+    Thánh Giuse NGUYỄN DUY KHANG  —  tử đạo 6/12
+096_simon-phan-dac-hoa.mp3   [6:42]
+    Thánh Simon PHAN ĐẮC HÒA  —  tử đạo 10/12
+097_phaolo-nguyen-van-my.mp3   [1:55]
+    Thánh Phaolô NGUYỄN VĂN MỸ  —  tử đạo 18/12
+098_phero-truong-van-duong.mp3   [1:24]
+    Thánh Phêrô TRƯƠNG VĂN ĐƯỜNG  —  tử đạo 18/12
+099_phero-vu-truat.mp3   [7:15]
+    Thánh Phêrô VŨ TRUẬT  —  tử đạo 18/12
+100_phanxico-xavie-ha-trong-mau-daminh-bui-van-uy-augustino-nguy.mp3   [3:17]
+    Thánh Phanxicô Xaviê HÀ TRỌNG MẬU & Đaminh BÙI VĂN ÚY & Augustinô NGUYỄN VĂN MỚI & Tôma NGUYỄN VĂN ĐỆ & Stêphanô NGUYỄN VĂN VINH  —  tử đạo 19/12
+101_daminh-bui-van-uy.mp3   [2:47]
+    Thánh Đaminh BÙI VĂN ÚY  —  tử đạo 19/12
+102_augustino-nguyen-van-moi.mp3   [1:30]
+    Thánh Augustinô NGUYỄN VĂN MỚI  —  tử đạo 19/12
+103_toma-nguyen-van-de.mp3   [1:56]
+    Thánh Tôma NGUYỄN VĂN ĐỆ  —  tử đạo 19/12
+104_stephano-nguyen-van-vinh.mp3   [8:27]
+    Thánh Stêphanô NGUYỄN VĂN VINH  —  tử đạo 19/12
+105_phero-truong-van-thi.mp3   [5:54]
+    Thánh Phêrô TRƯƠNG VĂN THI  —  tử đạo 21/12
+106_anre-tran-an-dung-lac.mp3   [8:07]
+    Thánh Anrê TRẦN AN DŨNG LẠC  —  tử đạo 21/12
+107a_phu-truong-lich-su-truyen-giao-tai-viet-nam.mp3   [5:02]
+    Phụ trương. Lịch sử truyền giáo tại Việt Nam
+107b_phu-truong-doi-song-cac-chung-nhan-tu-dao.mp3   [25:27]
+    Phụ trương. Đời sống các chứng nhân tử đạo
+107c_phu-truong-tu-dao-hien-te-tinh-yeu.mp3   [11:21]
+    Phụ trương. Tử đạo, hiến tế tình yêu
+107d_phu-truong-tu-dao-la-chung-tu.mp3   [9:17]
+    Phụ trương. Tử đạo là chứng từ
+107e_phu-truong-chan-dung-cac-vi-tu-dao.mp3   [9:37]
+    Phụ trương. Chân dung các vị tử đạo
