@@ -3,7 +3,7 @@
 Sách nói (audiobook) dựng từ bản PDF *Thiên Hùng Sử — 117 Hiển Thánh Tử Đạo Việt Nam*,
 kèm trang đọc–nghe song song.
 
-**Nghe trực tuyến:** https://ducpt1012.github.io/117-thanh-tu-dao-viet-nam/
+**Nghe trực tuyến:** https://ducpt1012.github.io/thien-hung-su/
 
 ## Nội dung
 
