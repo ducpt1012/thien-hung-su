@@ -1,11 +1,12 @@
 // Server tĩnh có hỗ trợ HTTP Range (bắt buộc để tua audio và để Safari chịu phát).
-// Dùng:  node serve.js [cổng]     rồi mở http://localhost:8080
+// Dùng:  npm start [-- cổng]   hoặc   node tools/serve.js [cổng]
+// rồi mở http://localhost:8080
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
 const PORT = +process.argv[2] || 8080;
-const ROOT = __dirname;
+const ROOT = path.resolve(__dirname, '..');   // gốc site nằm trên tools/ một cấp
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',

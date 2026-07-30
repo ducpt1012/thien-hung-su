@@ -14,24 +14,46 @@ kèm trang đọc–nghe song song.
 | Phụ trương — lịch sử truyền giáo và 4 bài suy niệm | 5 |
 | **Tổng** | **114 bài · 13 giờ 37 phút** |
 
-Danh mục đầy đủ kèm thời lượng từng bài: [`00-DANH-MUC.txt`](00-DANH-MUC.txt)
+Danh mục đầy đủ kèm thời lượng từng bài: [`docs/DANH-MUC.txt`](docs/DANH-MUC.txt)
 
 ## Cấu trúc
 
 ```
-index.html          trang, chỉ có phần khung HTML
-assets/app.css      giao diện
-assets/app.js       danh mục, trình phát, chế độ vừa nghe vừa đọc
-data/book.js        toàn văn 114 bài  (window.DATA, mỗi bài một dòng)
-data/audio/*.mp3    114 file audio, tên file = trường `id` trong data/book.js
-00-DANH-MUC.txt     danh mục kèm thời lượng
-serve.js            server tĩnh có HTTP Range, chỉ dùng khi chạy local
-_headers            cache-control cho Cloudflare Pages
+index.html                 khung HTML của trang
+assets/
+  app.css                  giao diện
+  app.js                   danh mục, trình phát, chế độ vừa nghe vừa đọc
+data/
+  book.js                  toàn văn 114 bài (window.DATA, mỗi bài một dòng)
+  audio/*.mp3              114 file audio, tên file = trường `id` trong book.js
+docs/DANH-MUC.txt          danh mục kèm thời lượng
+tools/
+  serve.js                 server tĩnh có HTTP Range, chỉ dùng khi chạy local
+  check-data.js            kiểm tra dữ liệu khớp audio và danh mục
+.github/workflows/check.yml chạy `npm run check` mỗi lần push
+_headers                   cache-control cho Cloudflare Pages
+.nojekyll                  tắt Jekyll của GitHub Pages
 ```
 
-Thêm hay sửa một bài: sửa `data/book.js` và đặt file `<id>.mp3` vào `data/audio/`.
-Thứ tự bài trên trang theo đúng thứ tự trong `data/book.js`; danh mục gom nhóm
-theo trường `section`.
+Trang được xuất bản ngay từ gốc repo, nên `index.html`, `assets/`, `data/`,
+`_headers` và `.nojekyll` buộc phải ở gốc: GitHub Pages chỉ cho chọn nguồn là
+`/` hoặc `/docs`, còn `_headers` thì Cloudflare Pages chỉ đọc ở gốc thư mục xuất
+bản — đặt vào thư mục con là mất tác dụng mà không báo lỗi. Vì không có bước
+build nào, gốc repo cũng chính là thư mục xuất bản; chỉ phần công cụ và tài liệu
+được đưa ra ngoài.
+
+## Phát triển
+
+```bash
+npm start           # http://localhost:8080  (npm start -- 3000 để đổi cổng)
+npm run check       # dữ liệu có khớp file audio và danh mục không
+```
+
+Thêm hay sửa một bài: sửa `data/book.js`, đặt file `<id>.mp3` vào `data/audio/`,
+thêm mục tương ứng vào `docs/DANH-MUC.txt`, rồi chạy `npm run check`. Thứ tự bài
+trên trang theo đúng thứ tự trong `data/book.js`; danh mục gom nhóm theo trường
+`section`. Không có bước build và không có dependency nào — `package.json` chỉ
+để giữ mấy câu lệnh trên.
 
 ## Trang web
 
@@ -41,17 +63,13 @@ theo trường `section`.
 - **Vừa nghe vừa đọc**: tô sáng đoạn đang phát và tự cuộn theo; kéo thanh chạy hoặc bấm vào một đoạn đều nhảy tới đúng chỗ
 - Điện thoại: danh mục dạng ngăn kéo
 
-Trang thuần HTML/CSS/JS, không cần máy chủ. Chạy thử tại máy:
+Trang thuần HTML/CSS/JS, không framework, không bước build. Mở thẳng
+`index.html` bằng trình duyệt cũng chạy được: toàn văn nạp qua `<script src>`
+chứ không qua `fetch`, nên không vướng CORS của `file://`.
 
-```bash
-node serve.js       # http://localhost:8080
-```
-
-(`serve.js` chỉ cần cho việc chạy local — nó hỗ trợ HTTP Range để tua audio,
-thứ mà `python3 -m http.server` không có. GitHub Pages và Cloudflare Pages đã hỗ trợ sẵn.)
-
-Mở thẳng `index.html` bằng trình duyệt cũng chạy được: toàn văn nạp qua
-`<script src>` chứ không qua `fetch`, nên không vướng CORS của `file://`.
+`tools/serve.js` chỉ cần khi muốn chạy đúng như trên web — nó hỗ trợ HTTP Range
+để tua audio, thứ mà `python3 -m http.server` không có. GitHub Pages và
+Cloudflare Pages đã hỗ trợ sẵn.
 
 ## Giọng đọc
 

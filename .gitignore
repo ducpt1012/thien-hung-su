@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log*
+*.log
+
+# rác của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# thư mục nháp khi dựng lại audio
+tmp/
+.cache/

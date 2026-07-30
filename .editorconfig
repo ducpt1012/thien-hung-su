@@ -1,0 +1,21 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+# danh mục và toàn văn: giữ nguyên từng dòng, không định dạng lại
+[docs/DANH-MUC.txt]
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[data/book.js]
+insert_final_newline = true
+trim_trailing_whitespace = false

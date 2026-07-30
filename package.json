@@ -1,0 +1,18 @@
+{
+  "name": "thien-hung-su",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sách nói Thiên Hùng Sử — 117 Hiển Thánh Tử Đạo Việt Nam, kèm trang đọc–nghe song song",
+  "homepage": "https://ducpt1012.github.io/thien-hung-su/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ducpt1012/thien-hung-su.git"
+  },
+  "scripts": {
+    "start": "node tools/serve.js",
+    "check": "node tools/check-data.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
