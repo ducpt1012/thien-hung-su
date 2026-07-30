@@ -8,17 +8,20 @@ const PORT = +process.argv[2] || 8080;
 const ROOT = __dirname;
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
+  '.css': 'text/css; charset=utf-8',
+  '.js': 'text/javascript; charset=utf-8',
   '.mp3': 'audio/mpeg',
   '.txt': 'text/plain; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
 };
 
 http.createServer((req, res) => {
-  const rel = decodeURIComponent(req.url.split('?')[0]);
+  let rel;
+  try { rel = decodeURIComponent(req.url.split('?')[0]) } catch { return res.writeHead(400).end() }
   const file = path.join(ROOT, rel === '/' ? 'index.html' : rel);
 
   // chặn thoát ra ngoài thư mục gốc
-  if (!file.startsWith(ROOT)) return res.writeHead(403).end();
+  if (file !== ROOT && !file.startsWith(ROOT + path.sep)) return res.writeHead(403).end();
 
   fs.stat(file, (err, st) => {
     if (err || !st.isFile()) return res.writeHead(404).end('Not found');

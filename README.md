@@ -16,6 +16,23 @@ kèm trang đọc–nghe song song.
 
 Danh mục đầy đủ kèm thời lượng từng bài: [`00-DANH-MUC.txt`](00-DANH-MUC.txt)
 
+## Cấu trúc
+
+```
+index.html          trang, chỉ có phần khung HTML
+assets/app.css      giao diện
+assets/app.js       danh mục, trình phát, chế độ vừa nghe vừa đọc
+data/book.js        toàn văn 114 bài  (window.DATA, mỗi bài một dòng)
+data/audio/*.mp3    114 file audio, tên file = trường `id` trong data/book.js
+00-DANH-MUC.txt     danh mục kèm thời lượng
+serve.js            server tĩnh có HTTP Range, chỉ dùng khi chạy local
+_headers            cache-control cho Cloudflare Pages
+```
+
+Thêm hay sửa một bài: sửa `data/book.js` và đặt file `<id>.mp3` vào `data/audio/`.
+Thứ tự bài trên trang theo đúng thứ tự trong `data/book.js`; danh mục gom nhóm
+theo trường `section`.
+
 ## Trang web
 
 - Danh mục bên trái gom theo tháng, có ô tìm tên thánh
@@ -31,7 +48,10 @@ node serve.js       # http://localhost:8080
 ```
 
 (`serve.js` chỉ cần cho việc chạy local — nó hỗ trợ HTTP Range để tua audio,
-thứ mà `python3 -m http.server` không có. GitHub Pages đã hỗ trợ sẵn.)
+thứ mà `python3 -m http.server` không có. GitHub Pages và Cloudflare Pages đã hỗ trợ sẵn.)
+
+Mở thẳng `index.html` bằng trình duyệt cũng chạy được: toàn văn nạp qua
+`<script src>` chứ không qua `fetch`, nên không vướng CORS của `file://`.
 
 ## Giọng đọc
 
