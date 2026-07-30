@@ -10,7 +10,11 @@
   },
   "scripts": {
     "start": "node tools/serve.js",
-    "check": "node tools/check-data.js"
+    "check": "node tools/check-data.js",
+    "check:catalog": "node tools/update-catalog.js --check",
+    "build:audio": "python3 tools/build-audio.py",
+    "sync-weights": "node tools/sync-weights.js",
+    "catalog": "node tools/update-catalog.js"
   },
   "engines": {
     "node": ">=18"

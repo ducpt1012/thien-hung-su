@@ -1,0 +1,686 @@
+{
+  "000a_loi-tua": {
+    "sha256": "f581e4e358e56d6e44a638ca8001518d2e148f8637e218af498f96126833c276",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 501.024
+  },
+  "000b_tam-thu": {
+    "sha256": "7f2349c157deff4c2cd87e0d4d6bff7036909a4a5d535e2a248493be8d1b7c29",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 99.264
+  },
+  "000c_giai-thich-buc-hoa-cac-thanh-tu-dao-viet-nam": {
+    "sha256": "994279475865b733de08d7c259204e7231c381f9ff42b2f07bf248b9ac3671d1",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 345.696
+  },
+  "000d_bai-giang-cua-duc-giao-hoang-gioan-phaolo-hai-trong-dai-le-t": {
+    "sha256": "289515df5d797e87e10caddf3e89345a50f95d51b408559919c808d29034b075",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 850.176
+  },
+  "001_daminh-pham-trong-kham": {
+    "sha256": "08d36e633ee192636e2fb992eeaac48b0af0102a024832de82a79ea5783623c4",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 152.52
+  },
+  "002_giuse-pham-trong-ta-luca-pham-trong-thin": {
+    "sha256": "23fed9324fe235f8775836e9122fb51f3f7572989991719fcf79fe29f0c8ad9a",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 655.872
+  },
+  "003_phanxico-federich-te": {
+    "sha256": "11600c1fb75dc96366329e2ecd1d92d0002be744023d8b28c47d3d834b1c829f",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 1071.504
+  },
+  "004_toma-khuong": {
+    "sha256": "61830427361bcaef8b775a03c2d831ab84d3779c0a4092dc20ec035348585092",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 303.672
+  },
+  "005_gioan-theophane-venard-ven": {
+    "sha256": "a7ecc017d10bcfda2ebee9052ccf15fd9c73138113884ee0223f90063b12ff5c",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 570.216
+  },
+  "006_phaolo-le-van-loc": {
+    "sha256": "d61eeee0a780c55c4cdb7fb14d623e0c41e0956f62104480f2c61609a6c48b7c",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 281.784
+  },
+  "007_daminh-cam": {
+    "sha256": "8084c44e605e371e355eb2a0ed2ecd86c079ff1a63878712819c123801d0640d",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 243.336
+  },
+  "008_daminh-vu-dinh-tuoc": {
+    "sha256": "33ebd7718872d2dc70f1c9b52fc628361066c4642f56c1cb976d3a949bd259e1",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 303.432
+  },
+  "009_phaolo-le-bao-tinh": {
+    "sha256": "ddf7f784ff870e4f32e43111fea622f70a2d8de817fafcecc9a9bd9b56a7b106",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 738.408
+  },
+  "010_phero-nguyen-van-luu": {
+    "sha256": "bdd5023762c0cd909f23f78a11a74263834f92a2fa3c19a3055a07047ccac372",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 249.768
+  },
+  "011_laurenso-nguyen-van-huong": {
+    "sha256": "1977d7385581f272327dee20987d916420029b6c8a1f4a6fb0edf911e40539af",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 381.504
+  },
+  "013_giuse-tuan-hoan": {
+    "sha256": "1513c9aa98d17900d545ad06cae29ab1263b9824659951734d1dbb142e14932a",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 218.592
+  },
+  "014_augustino-schoeffler-dong": {
+    "sha256": "d10667cfef03d178b01b1d7f262320eb2adc43c2e75a1fad974be6e3d87fde0c",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 510.456
+  },
+  "024_phaolo-hanh": {
+    "sha256": "b288a60386352b41af5a30f5b5974489b042a88179b8b4fa8ef1ff77f3a0c849",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 225.744
+  },
+  "016_giuse-nguyen-van-luu": {
+    "sha256": "54210f2ff151c7d518596768e35fafff4a4fa2d7e3c12f78e96e0f612b0c5755",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 288.936
+  },
+  "023_mattheu-nguyen-van-phuong": {
+    "sha256": "219a235b59d43e7fcd7b465f19e0419fdab7785093e61a048e06753ac9ac3191",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 325.776
+  },
+  "027_phaolo-dong-duong": {
+    "sha256": "81a26460b0090d0edb427402cc1f14c5a5bde3f97b39eeca2a6880093e4b8f7b",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 277.632
+  },
+  "021_phero-doan-van-van": {
+    "sha256": "7ff160701a440615b14d6913e701f8095bccac19608e946c236baac4013dbdf8",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 273.552
+  },
+  "020_laurenso-ngon": {
+    "sha256": "a3213f073735df4e40d872f7987fe2e4f562d53e0869c586a2705d8ee83b1a18",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 305.568
+  },
+  "018_mattheu-le-van-gam": {
+    "sha256": "f6136450208b3115b559c5030e21e4d219508a168a7e43e372e65013d873c967",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 462.84
+  },
+  "026_daminh-ninh": {
+    "sha256": "250b3c07a2d3d4425fc868c481b9a64097883975f74e869f0643f63ac8198ab0",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 216.6
+  },
+  "022_gioan-doan-trinh-hoan": {
+    "sha256": "aa9cad83506651f74ec8d58ab4792f1ff9817a0b47bf78e5a6a5a7cec85d97ed",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 381.384
+  },
+  "019_micae-ho-dinh-hy": {
+    "sha256": "ec235134f68697005853cea0f18217df10c22db06dda7d28e40a82350b694a88",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 541.272
+  },
+  "025_giuse-tuc": {
+    "sha256": "f0e46471a6ee94f728f906c40a90409f2622e06e9e4f86e3328b1ef58b472a0d",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 317.112
+  },
+  "035_phero-da": {
+    "sha256": "03975e841cfab3f4c078f51027d1d8094991b38eaa4902285367a14eb7991f13",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 164.184
+  },
+  "015_gioan-louis-bonnard-huong": {
+    "sha256": "2a2aedb7b3ed7b2e384a26f4b6efbbda907e26926eef9366ea11beba32530327",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 550.8
+  },
+  "017_giuse-hien": {
+    "sha256": "9c763e6c21eb060e76bca906782f802499fb07e88e0e13b54388d45d24ecbda6",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 323.064
+  },
+  "037_phanxico-do-van-chieu": {
+    "sha256": "98396d689edb68ce0becf14046438b3f9938eb164676d6c76e55a3d5b5d4f348",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 431.16
+  },
+  "029_daminh-toai-daminh-huyen": {
+    "sha256": "000529e1538bef9ff2b2c572ea6e0d598f6eef4efdc62f326dcb8f24991d62a8",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 271.896
+  },
+  "031_vinh-son-duong": {
+    "sha256": "c6d4587094d246b6a1b4827eb87f9a6bc6fbf4a31cf885e0c8eb71112afc2a94",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 240.0
+  },
+  "032_giuse-tran-van-tuan": {
+    "sha256": "ff0081aeae94eb10b92c4f9ba6c836789a3119171896d7b1d9573c7253324d7b",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 252.024
+  },
+  "012_phaolo-pham-khac-khoan-phero-nguyen-van-hieu-gioan-baotixita": {
+    "sha256": "feed865bf1ae7af35087e50a89ca420b1daff1dcb3abc97b285f54fc57d536fe",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 562.08
+  },
+  "041_giuse-nguyen-dinh-uyen": {
+    "sha256": "f79fa64b1424362f5e98d0a5b36d435fa99bb62c8b7faa41ce70639a00506124",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 342.912
+  },
+  "042_phero-nguyen-khac-tu": {
+    "sha256": "0843e6402d57d96a5e78064e2b6e0c4ca33211411a0d30e341d151af17cfabdb",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 329.28
+  },
+  "028_luca-vu-ba-loan": {
+    "sha256": "6b8db33002406922d515cc6ac2594287c26d0b9381a1f0fab6a4ae06cf807bdf",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 537.96
+  },
+  "030_phero-dinh-van-dung-phero-dinh-van-thuan": {
+    "sha256": "c2cd026d352cd2a29c7aaa0ee607743f7f73de6cde0dfa81a744281317f86747",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 285.24
+  },
+  "039_vinh-son-do-yen": {
+    "sha256": "0c2531d311b60385ff2a12deb46b7ba247e8f7abf9fd47e862bd1bb1cd7b419a",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 436.92
+  },
+  "033_augustino-phan-viet-huy-nicolas-bui-duc-the-daminh-dinh-dat": {
+    "sha256": "ade2cef8286b2f63c7b660a9e89cd72bc39da2f0a00d7ea44211f8c792f0be1f",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 900.096
+  },
+  "034_anre-tuong-vinh-son-tuong-daminh-nguyen-duc-mao-daminh-nhi": {
+    "sha256": "5b04d7b965598b119cbe92a5c63b45d2d2459aeee1ccf594a94afcb38336fb54",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 505.392
+  },
+  "038_toma-toan": {
+    "sha256": "e03f3814524e1b0081727d7540fad8f59d1895a60767cabe3179689f57185650",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 279.864
+  },
+  "040_philiphe-phan-van-minh": {
+    "sha256": "ebb79b1e160ebdd055d849e40819fd5fd2adcb26b642c3d1be73fa7f5193fda2",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 403.56
+  },
+  "043_anton-nguyen-huu-quynh-nam": {
+    "sha256": "6a5e61d302f507f9b79e3d6bf6d8d4ed76133eadbc3ffbb0c5ed5f8e10abbd7a",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 510.408
+  },
+  "036_daminh-henares-minh-xuan": {
+    "sha256": "45d8caeded3de47c6db5788590b80e3a16ca59cbe11dd6f95dea7bc96d0f7dfb",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 766.224
+  },
+  "048_anre-nguyen-kim-thong-nam-thong": {
+    "sha256": "488b868616b247e7ccdfe8ccd4f2ebf32f397649b6959ac0da9bd33901a2f780",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 313.032
+  },
+  "046_phero-khanh": {
+    "sha256": "78ea40397d415e6a63f668adc3714835fa288f446afd728ba05cb058c448cf85",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 318.552
+  },
+  "044_ignatio-delgado-y": {
+    "sha256": "d6db85f3fa8984702e34259cef0cd638037176060fe122550de1339b9c66559b",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 828.84
+  },
+  "047_phero-nguyen-ba-tuan": {
+    "sha256": "71439383dfcc2189520f6a83eac8f059026473e15d9f029042e09efdd2505327",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 331.704
+  },
+  "045_ane-le-thi-thanh-ba-thanh-de": {
+    "sha256": "b5ebaaa34ea55f000ca0d7d725708a370ccf77a50f236d751b4e16469589588d",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 488.064
+  },
+  "055_bernado-vu-van-due": {
+    "sha256": "27472c793376eddbfeba42f0663a83fadfcee3c968812e3a0d6e99e4da250ca2",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 507.096
+  },
+  "064_daminh-trach": {
+    "sha256": "fa4f56514da464867cde98f33030bbb71df6691e3be14d74ec2a72ee63cdc0ba",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 240.36
+  },
+  "058_anton-nguyen-dich": {
+    "sha256": "fd66fd3b1696fea008b1093e02aeec307aeddbaac82f11f3965aea085d963c7b",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 342.984
+  },
+  "072_giuse-le-dang-thi": {
+    "sha256": "73a4b2ef20919083b8cba287e0c1fbb443ee8c7e4ddaa9d8edf494dd917d4ef1",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 285.408
+  },
+  "060_giuse-dang-dinh-vien": {
+    "sha256": "55fc023874c6a5cf7ef19b82ec501400e4e939eb45720305b6cb257d0cbd0e7e",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 328.008
+  },
+  "063_emmanuel-nguyen-van-trieu": {
+    "sha256": "a39ada011b3a6ffb52f8781eedefc548d0d9db12f6c4caefde982144a15a83c9",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 458.136
+  },
+  "068_phanxico-tran-van-trung": {
+    "sha256": "b90e4ce461e1f1751db233481fd7cf376f5654be9793d3ccc6da4bfcdcc1488d",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 307.704
+  },
+  "057_giacobe-do-mai-nam": {
+    "sha256": "f44a026828ef7141a439c981aca6d0ccd227677298939674c75fbc5e8f18d6a0",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 288.768
+  },
+  "071_phaolo-tong-viet-buong": {
+    "sha256": "b547b6cc0cb921da6a45f67b55a800979e68235c6acb092740940970c52ac3a2",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 455.424
+  },
+  "062_giuse-hoang-luong-canh": {
+    "sha256": "11d125f04ea6bceffcc54e09d35b2a06cb91e35379f7f82e05445c39dd7e3175",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 313.008
+  },
+  "054_emmanuel-le-van-phung": {
+    "sha256": "ae5102a606275e9592c8b858d284d060677ebb928c7f27b76e37999f87a00d40",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 312.072
+  },
+  "050_giuse-diaz-sanjurjo-an": {
+    "sha256": "03a6c3a2faf98c3af32f0fc744247e2f87e81f95f99deb531229bc80805e3173",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 605.28
+  },
+  "082_phaolo-nguyen-ngan": {
+    "sha256": "ca3279a9895214b99c08e4b802f38601be563e4bb5b87a0fe64a3d0bad425348",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 66.984
+  },
+  "065_gioan-charles-cornay-tan": {
+    "sha256": "98819b6e8d0cbbfd0250ed37c6e143c5e0e8a34037000f6ca35deadf9c7d3aaa",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 389.664
+  },
+  "084_martino-tho": {
+    "sha256": "461d682375d51f22da55417359c4310b71d4b16b77d1fad1040c32c130d5a9f6",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 144.648
+  },
+  "069_phero-le-tuy": {
+    "sha256": "4b55a37216a0b27f2531f05022ba991f127b0f42fc2bc8001b40f107300c97e5",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 390.552
+  },
+  "067_toma-tran-van-thien": {
+    "sha256": "e671ae8cb751aa0b734cf7ad348563509327b6240fc79f2f9880513408176afa",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 449.736
+  },
+  "051_giuse-fernandez-hien": {
+    "sha256": "3d526512d5cd0e88f11b876a808fd251ad44d4b9c4cfa90ad7ba99cc12efa476",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 555.072
+  },
+  "059_micae-nguyen-huy-my": {
+    "sha256": "b69d0d0a01cb66748b9d4663e5fd468e1864f2e5a6872877dc9dc89663e4b0b5",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 749.736
+  },
+  "053_phero-doan-cong-quy": {
+    "sha256": "97cda65cbf1336fa07c56a252cb268a40b1f70297b19e2c8b35a876237bca4b5",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 535.152
+  },
+  "061_phero-nguyen-van-tu": {
+    "sha256": "b3383ebd7e6e4c1c86419c7098028c54ae981ba386731de02e474dfbe070beca",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 469.296
+  },
+  "073_gioan-dat": {
+    "sha256": "a2b9ea8a2801e6cb7fad5a194c8cd5cc0b7889b5b0d6b5a23ea1e6736f644f17",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 385.488
+  },
+  "081_giuse-nguyen-dinh-nghi": {
+    "sha256": "1b7814a8d7684925fb7714adafb1b7bfd9365e6f7e5a7139494ab9fd9295383c",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 144.096
+  },
+  "070_isidoro-gagelin-kinh": {
+    "sha256": "6845f6eb09a3b7c8252983754c6ccf2230cfea068dd8ba5c2ad12866f99d5a38",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 529.176
+  },
+  "052_sampedro-xuyen": {
+    "sha256": "4a5816a383ec4220e86add8a1731e9c400745c3634167e49a5c4d6a241590f38",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 593.88
+  },
+  "066_phanxico-jaccard-phan-ninh": {
+    "sha256": "1372bc45974d074d85806fef5895ec0d96ebb9b090a6e2eb40ff6a9ac7524623",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 622.632
+  },
+  "080_jacinto-castaneda-gia": {
+    "sha256": "c7884c221875769508a50deb0e9dbee43c3ab0e71874ac9ddc2b551a559336c4",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 450.48
+  },
+  "083_martino-ta-duc-thinh": {
+    "sha256": "d274b7f84345bfaf1ecccb8dbabe4b515bd2b5955f977446e807b7f1b3da3675",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 395.736
+  },
+  "056_daminh-nguyen-van-hanh": {
+    "sha256": "a090b6c5ef23505b85b0d58523b4762c2c099a3992b4d4deefe47359ab54dbba",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 478.968
+  },
+  "087_phanxico-nguyen-can": {
+    "sha256": "26ddd82cde8ccc29a624c2668131d5495ac384506bf7aa558f967faa023e0fd0",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 490.728
+  },
+  "101_daminh-bui-van-uy": {
+    "sha256": "5504bdce6e778c6f4eee3d31e5391f80674bc280bf70d0e002ddc4470109939d",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 167.088
+  },
+  "102_augustino-nguyen-van-moi": {
+    "sha256": "e8217b7269dc1ee7662121fbf3ead2fbbcb752eaba1e8a41c331d5c44492ef66",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 90.936
+  },
+  "077_phero-phanxico-neron-bac": {
+    "sha256": "d36fe82ff74a1147bc47312f2e54d8386fed4fb2a2c228dcbc91d6d57ce93c77",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 443.976
+  },
+  "103_toma-nguyen-van-de": {
+    "sha256": "ae2d58dbbc18c8c33c63560f4535673678a6ece1860a5a85ed9fc52fda9f6774",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 116.76
+  },
+  "079_vinh-son-pham-hieu-liem": {
+    "sha256": "4e8ea77260494986eb1c4d6f94884a209943aeeb55d4b0160e01468729b549f8",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 564.792
+  },
+  "104_stephano-nguyen-van-vinh": {
+    "sha256": "2136d116f82586a704d92545fa725337812174c25050bbbf4da91a93f511c083",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 507.0
+  },
+  "089_phero-vu-dang-khoa": {
+    "sha256": "eda4f31d1affa1099b897de0c4e9979747c284a173c27f9a7bf7b17f7c05bc7f",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 298.464
+  },
+  "076_phero-almato-binh": {
+    "sha256": "560f5ff9245f859c475911b0e13d5be118bf78cf758e62fc1559bfb736afb180",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 378.648
+  },
+  "098_phero-truong-van-duong": {
+    "sha256": "afb0d52633b17e7a276d29003db04ff0a9b3fecb5d032d6414a5be432215e500",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 84.576
+  },
+  "090_vinh-son-nguyen-the-diem": {
+    "sha256": "1f9cae22e48075598eaeeae622e318c3bdc5774f44d89479051c05ce6264fc4c",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 288.888
+  },
+  "091_toma-dinh-viet-du": {
+    "sha256": "cea0e95c8bbd1c3b2f108a4d3170f194d536f3b86a7dcc9aadf8def500e0df0b",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 410.088
+  },
+  "085_gioan-baotixita-con": {
+    "sha256": "aac3f8e81dfdad3d9b8bd76d396056334843a393e411396eabc541b310c5253e",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 351.216
+  },
+  "092_daminh-nguyen-van-xuyen": {
+    "sha256": "973c15cd5630af985f6de12f9adecbdde1ee5d67b676c4fb16e2987d693626bb",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 351.192
+  },
+  "088_phero-borie-cao": {
+    "sha256": "055ebe90e1648be415e79685939596f58ae07a59ec4854775f383d3b4123bd6f",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 672.144
+  },
+  "078_daminh-ha-trong-mau": {
+    "sha256": "6c486c442e8dd73d705c9d781c816ca110edac1d7fe39affde999e4f6983917a",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 259.8
+  },
+  "093_anre-tran-van-trong": {
+    "sha256": "1c1d72ed951aec8245b0e41d0375c48ba8a0989d27d98c29cf12245b207c0752",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 403.776
+  },
+  "095_giuse-nguyen-duy-khang": {
+    "sha256": "40338fecf726611ea9e949ea732cb4425819a752968acb9e1e85c6febd552bcc",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 407.856
+  },
+  "074_jeronimo-hermosilla-vong-liem": {
+    "sha256": "a48d7879bf32b3092cb70a31d9b21659950f1ad05c0f0aab717479f224e9b75b",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 1103.256
+  },
+  "097_phaolo-nguyen-van-my": {
+    "sha256": "1716e96e6e364c2ff699e0655046bfe448b6c4261920d49f9bad28c0b7d9da38",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 117.912
+  },
+  "100_phanxico-xavie-ha-trong-mau-daminh-bui-van-uy-augustino-nguy": {
+    "sha256": "e8b51eb8b05cb1dfa4e230c0b98aa209d5fca30bdfdecc0fe0a9be10513ec334",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 206.016
+  },
+  "106_anre-tran-an-dung-lac": {
+    "sha256": "a060fdc5088dc1ab4b8ed3ad809b9d44218864c0445ba4b5f12f862a0a589410",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 487.776
+  },
+  "096_simon-phan-dac-hoa": {
+    "sha256": "2883825305a40923efb6044444f31942c0f1ea7961ff33837e5a2825e38ff129",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 402.576
+  },
+  "086_stephano-theodore-cuenot-the": {
+    "sha256": "5cd6c4866c7fb5957e68c4553060142b981720b3e423ab125167d11ac2e2ca3c",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 776.4
+  },
+  "107a_phu-truong-lich-su-truyen-giao-tai-viet-nam": {
+    "sha256": "03624455aaa28ce54cc7a18ddff6a2988f45e3ecdbb2286abfa04fa9fc7c780f",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 303.312
+  },
+  "075_valentino-berrio-ochoa-vinh": {
+    "sha256": "16269e77ea0d33c860cc9f42b4959bf78095b7755bf585396f479d71985242cb",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 1018.608
+  },
+  "105_phero-truong-van-thi": {
+    "sha256": "af3f63ff9035b3d1555391456f6caf23c50ca1ba243eb36bf3f87d13fe41158d",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 354.72
+  },
+  "107d_phu-truong-tu-dao-la-chung-tu": {
+    "sha256": "1839abf0a28e9985e727be3d4e940f93c13ffde5943846e5e8756badd7860702",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 555.408
+  },
+  "094_giuse-marchand-du": {
+    "sha256": "70dbc6a7bac12ad5d45e046823eca7e2cf4e1ef441f1028dc201c0ec53409cc7",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 767.256
+  },
+  "099_phero-vu-truat": {
+    "sha256": "e26a61a41a48797d4000a094ef19ec490146460bd92e706f07afb2bd00e5284f",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 396.192
+  },
+  "107c_phu-truong-tu-dao-hien-te-tinh-yeu": {
+    "sha256": "2aa5dcb5cc49586b5902f3b7b4bffd2240a789a9d27df10464a5b6265ad071fc",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 678.816
+  },
+  "107e_phu-truong-chan-dung-cac-vi-tu-dao": {
+    "sha256": "cf429864cf4b138c09e874592613a6b6a485b8f9a77a605557f9eba51f0acab8",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 573.84
+  },
+  "107b_phu-truong-doi-song-cac-chung-nhan-tu-dao": {
+    "sha256": "c0a3e4f11539d0817b9958a21fe3efa637c46f9747a89448f228db19dac4dc10",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "duration": 1525.68
+  }
+}

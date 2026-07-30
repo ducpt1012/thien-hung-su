@@ -69,8 +69,16 @@ button.ico:hover{border-color:var(--accent); color:var(--accent)}
 article{max-width:44rem; margin:0 auto; padding:0 24px}
 article h2{margin:0 0 6px; font-size:clamp(21px,3.4vw,27px); line-height:1.25; letter-spacing:.01em}
 article .meta{color:var(--muted); font-size:13.5px; margin-bottom:26px}
+/* Font chữ sách: xếp theo mức phủ tiếng Việt, KHÔNG để Georgia đứng đầu.
+   Georgia trên Windows thiếu các chữ hai dấu (ầ ố ế ắ ề — khối Latin Extended
+   Additional), trình duyệt phải tự chắp chữ gốc với dấu rời nên hiện ra thành
+   "Thâ`y", "trô´n". Cambria/Constantia/Palatino Linotype (Windows), Iowan Old
+   Style/Charter (macOS), Noto/Liberation/DejaVu Serif (Linux) đều phủ đủ. */
 article p{
-  font-family:Georgia,"Times New Roman",serif; line-height:1.78;
+  font-family:Cambria,Constantia,"Palatino Linotype","Book Antiqua",
+              "Iowan Old Style",Charter,"Noto Serif","Liberation Serif",
+              "DejaVu Serif","Times New Roman",Georgia,serif;
+  line-height:1.78;
   font-size:var(--fs,17.5px); margin:0 0 1.15em; text-align:justify;
   hyphens:auto; word-break:break-word;
 }

@@ -94,8 +94,16 @@ let paras = [], cums = [], total = 0, hlIdx = -1;
 
 function measure() {
   paras = [...read.querySelectorAll('p')];
+  // `w` là độ dài từng đoạn của BẢN ĐỌC (do tools/sync-weights.js ghi vào).
+  // Bản đọc dài hơn bản hiện trên trang ("1790" đọc thành "một nghìn bảy trăm
+  // chín mươi"), nên đo theo nó thì đoạn tô sáng mới bám đúng giọng đọc; không
+  // có thì tạm đo theo chữ hiện trên trang.
+  const w = D[cur].w;
   cums = []; total = 0;
-  paras.forEach(p => { total += p.textContent.length + 18; cums.push(total); }); // +18 ≈ quãng nghỉ giữa đoạn
+  paras.forEach((p, i) => {
+    total += (w?.[i] ?? p.textContent.length) + 18;  // +18 ≈ quãng nghỉ giữa đoạn
+    cums.push(total);
+  });
   hlIdx = -1;
 }
 

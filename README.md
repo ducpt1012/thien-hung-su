@@ -12,7 +12,7 @@ kèm trang đọc–nghe song song.
 | Dẫn nhập — Lời tựa, Tâm thư, Giải thích bức họa, Bài giảng Đức Giáo Hoàng Gioan Phaolô II | 4 |
 | Hạnh tích các thánh, xếp theo tháng tử đạo | 105 |
 | Phụ trương — lịch sử truyền giáo và 4 bài suy niệm | 5 |
-| **Tổng** | **114 bài · 13 giờ 37 phút** |
+| **Tổng** | **114 bài · 13 giờ 34 phút** |
 
 Danh mục đầy đủ kèm thời lượng từng bài: [`docs/DANH-MUC.txt`](docs/DANH-MUC.txt)
 
@@ -26,10 +26,14 @@ assets/
 data/
   book.js                  toàn văn 114 bài (window.DATA, mỗi bài một dòng)
   audio/*.mp3              114 file audio, tên file = trường `id` trong book.js
+  tts-manifest.json        sha256 bản đọc đã tạo ra từng mp3, để dựng lại tăng dần
 docs/DANH-MUC.txt          danh mục kèm thời lượng
 tools/
   serve.js                 server tĩnh có HTTP Range, chỉ dùng khi chạy local
   check-data.js            kiểm tra dữ liệu khớp audio và danh mục
+  build-audio.py           dựng lại mp3 từ book.js (chỉ bài đã đổi)
+  sync-weights.js          ghi độ dài đoạn của bản đọc, cho chế độ vừa nghe vừa đọc
+  update-catalog.js        cập nhật thời lượng trong docs/DANH-MUC.txt
 .github/workflows/check.yml chạy `npm run check` mỗi lần push
 _headers                   cache-control cho Cloudflare Pages
 .nojekyll                  tắt Jekyll của GitHub Pages
@@ -52,8 +56,53 @@ npm run check       # dữ liệu có khớp file audio và danh mục không
 Thêm hay sửa một bài: sửa `data/book.js`, đặt file `<id>.mp3` vào `data/audio/`,
 thêm mục tương ứng vào `docs/DANH-MUC.txt`, rồi chạy `npm run check`. Thứ tự bài
 trên trang theo đúng thứ tự trong `data/book.js`; danh mục gom nhóm theo trường
-`section`. Không có bước build và không có dependency nào — `package.json` chỉ
-để giữ mấy câu lệnh trên.
+`section`. Trang web không có bước build và không có dependency nào —
+`package.json` chỉ để giữ mấy câu lệnh trên.
+
+## Dựng lại audio
+
+Bản chữ và bản đọc **khác nhau có chủ ý**: trên trang giữ đúng chữ tác giả
+(`Act 5,41`, `Lêô XIII`, `San Jose`), còn giọng đọc thì nở ra thành lời
+(`Sách Công Vụ Tông Đồ, chương năm, câu bốn mươi mốt`, `Lê-ô thứ mười ba`,
+`Xan Hô-xê`). Nếu đưa thẳng chữ trên trang vào máy đọc thì nó đọc sai viết tắt,
+sai số La Mã và sai tên nước ngoài.
+
+```
+data/book.js  ──vi-normalize──>  build/<id>.norm.txt  ──edge-tts──>  data/audio/<id>.mp3
+                                                       vi-VN-NamMinhNeural, rate -2%
+                                                       ffmpeg -b:a 64k -ar 24000 -ac 1
+```
+
+```bash
+python3 tools/build-audio.py --dry-run   # bài nào sẽ dựng lại
+npm run build:audio                      # dựng những bài đã đổi
+npm run sync-weights                     # cập nhật độ dài đoạn cho trang
+npm run catalog                           # cập nhật thời lượng trong danh mục
+npm run check && npm run check:catalog    # kiểm lại
+```
+
+`data/tts-manifest.json` giữ sha256 của bản đọc đã tạo ra từng mp3, nên sửa một
+bài không phải render lại 13 tiếng audio. Cần `ffmpeg`, `edge-tts`, và hai skill
+`vi-normalize` + `audiobook-studio` trong `~/.claude/skills/`.
+
+Dựng cả 114 bài thì tốc độ nằm ở số kết nối `edge-tts` cùng lúc (một kết nối chỉ
+nhanh hơn thời lượng thật khoảng 0,6×). `--max-inflight` chặn trần số request,
+TÁCH RỜI khỏi số luồng `--jobs × --workers`, nên tăng `--jobs` chỉ làm đầy chỗ
+trống — lúc vài bài đang ghép bằng ffmpeg thì bài khác giữ đường truyền — mà áp
+lực lên endpoint vẫn đứng ở trần. Gọi hỏng thì tự nghỉ giãn dần có jitter.
+Đo trên máy 12 lõi: trần 16 được ~2 bài/phút, trần 32 được ~5,7 bài/phút và vẫn
+không bài nào phải dựng lại.
+
+```bash
+python3 tools/build-audio.py --jobs 24 --workers 3 --max-inflight 32
+```
+
+Bước chuẩn hóa chạy song song và được nhớ trong `build/norm-cache.json` (khóa
+theo sha văn bản gốc), nên nó chỉ tốn thời gian đúng ở những bài vừa sửa.
+
+Muốn sửa cách đọc một tên riêng thì thêm vào `lexicon/proper.tsv` (hoặc
+`overrides.tsv` cho cụm nhiều chữ) của skill `vi-normalize`, chạy lại
+`build-audio.py` — chỉ những bài có tên đó bị dựng lại.
 
 ## Trang web
 

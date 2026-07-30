@@ -9,3 +9,7 @@ Thumbs.db
 # thư mục nháp khi dựng lại audio
 tmp/
 .cache/
+build/
+
+__pycache__/
+*.pyc
