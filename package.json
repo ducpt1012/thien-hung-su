@@ -15,6 +15,7 @@
     "build:text": "node tools/split-book.js",
     "build:audio": "python3 tools/build-audio.py",
     "sync-weights": "node tools/sync-weights.js",
+    "sync-times": "node tools/sync-times.js",
     "catalog": "node tools/update-catalog.js"
   },
   "engines": {

@@ -34,6 +34,13 @@ D.forEach((it, i) => {
   if (!it.title?.trim()) fail(`${at}: title rỗng`);
   if (!it.body?.trim()) fail(`${at}: body rỗng`);
   if (!it.body?.split('\n').some(s => s.trim())) fail(`${at}: body không có đoạn nào`);
+  // `t` = mốc bắt đầu từng đoạn (giây) cho chế độ vừa nghe vừa đọc
+  if (it.t) {
+    const n = it.body.split('\n').filter(s => s.trim()).length;
+    if (it.t.length !== n) fail(`${at}: có ${it.t.length} mốc thời gian nhưng ${n} đoạn`);
+    else if (it.t.some((x, k) => !(x >= 0) || (k && x <= it.t[k - 1])))
+      fail(`${at}: mốc thời gian phải tăng dần và không âm`);
+  }
 });
 
 // ---- audio ----

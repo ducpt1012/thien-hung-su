@@ -2,6 +2,9 @@ node_modules/
 npm-debug.log*
 *.log
 
+# rác của lệnh deploy Cloudflare
+.wrangler/
+
 # rác của hệ điều hành
 .DS_Store
 Thumbs.db

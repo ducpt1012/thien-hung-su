@@ -133,30 +133,45 @@ au.onerror = () => {
 };
 
 /* ----- Vừa nghe vừa đọc -----
-   Không có timestamp thật cho từng đoạn, nên suy ra từ tỉ lệ ký tự: giọng đọc
-   đều nhịp, nên vị trí trong bài ≈ số ký tự đã đọc / tổng ký tự. */
-let paras = [], cums = [], total = 0, hlIdx = -1;
+   `t` là mốc bắt đầu từng đoạn, tính bằng giây, đo thẳng trên file mp3
+   (tools/sync-times.js) nên tô đúng đoạn đang phát. Bài nào chưa đo được thì
+   quay về cách cũ: suy theo tỉ lệ ký tự của bản đọc (`w`) — kém chính xác vì
+   giọng đọc còn nghỉ ở mỗi cuối câu và còn đọc cả dòng tiêu đề ở đầu bài. */
+let paras = [], marks = null, cums = [], total = 0, hlIdx = -1;
 
 function measure() {
   paras = [...read.querySelectorAll('p')];
-  // `w` là độ dài từng đoạn của BẢN ĐỌC (do tools/sync-weights.js ghi vào).
-  // Bản đọc dài hơn bản hiện trên trang ("1790" đọc thành "một nghìn bảy trăm
-  // chín mươi"), nên đo theo nó thì đoạn tô sáng mới bám đúng giọng đọc; không
-  // có thì tạm đo theo chữ hiện trên trang.
-  const w = window.BOOK[D[cur].id]?.w;
-  cums = []; total = 0;
-  paras.forEach((p, i) => {
-    total += (w?.[i] ?? p.textContent.length) + 18;  // +18 ≈ quãng nghỉ giữa đoạn
-    cums.push(total);
-  });
+  const d = window.BOOK[D[cur].id] || {};
+  marks = d.t?.length === paras.length ? d.t : null;
+  if (!marks) {
+    const w = d.w;
+    cums = []; total = 0;
+    paras.forEach((p, i) => {
+      total += (w?.[i] ?? p.textContent.length) + 18;  // +18 ≈ quãng nghỉ giữa đoạn
+      cums.push(total);
+    });
+  }
   hlIdx = -1;
 }
 
+// đoạn đang được đọc ở giây `s`
+function paraAt(s) {
+  if (marks) {                       // mốc cuối cùng không vượt quá `s`
+    let lo = 0, hi = marks.length - 1;
+    while (lo < hi) { const mid = (lo + hi + 1) >> 1; if (marks[mid] <= s) lo = mid; else hi = mid - 1 }
+    return lo;
+  }
+  const i = cums.findIndex(c => c > s / au.duration * total);
+  return i < 0 ? paras.length - 1 : i;
+}
+
+// giây mà đoạn thứ `i` bắt đầu
+const paraStart = i => marks ? marks[i] : (i ? cums[i - 1] : 0) / total * au.duration;
+
 function sync(jump) {
-  if (!document.body.classList.contains('fw') || !au.duration || !paras.length) return;
-  const target = au.currentTime / au.duration * total;
-  let i = cums.findIndex(c => c > target);
-  if (i < 0) i = paras.length - 1;
+  if (!document.body.classList.contains('fw') || !paras.length) return;
+  if (!marks && !au.duration) return;
+  const i = paraAt(au.currentTime);
   if (i === hlIdx && !jump) return;
   paras[hlIdx]?.classList.remove('hl');
   paras[i].classList.add('hl');
@@ -193,7 +208,7 @@ read.onclick = e => {
   if (!p || !document.body.classList.contains('fw') || !au.duration) return;
   const i = paras.indexOf(p);
   if (i < 0) return;
-  au.currentTime = (i ? cums[i - 1] : 0) / total * au.duration;
+  au.currentTime = paraStart(i);
   if (au.paused) au.play().catch(() => {});
 };
 

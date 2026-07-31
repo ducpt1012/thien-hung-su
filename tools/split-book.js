@@ -29,10 +29,13 @@ function render(D) {
     D.map(({ id, title, section, meta }) =>
       JSON.stringify({ id, title, section, meta })).join(',\n') +
     '\n];\n';
+  // `t` (mốc thời gian đo trên bản thu) chính xác hơn hẳn `w` (tỉ lệ ký tự),
+  // nên bài nào đã có `t` thì không gửi kèm `w` nữa.
   const texts = new Map(D.map(d => [
     d.id + '.js',
     `(window.BOOK||(window.BOOK={}))[${JSON.stringify(d.id)}]=` +
-      JSON.stringify(d.w === undefined ? { body: d.body } : { body: d.body, w: d.w }) +
+      JSON.stringify(d.t ? { body: d.body, t: d.t }
+        : d.w ? { body: d.body, w: d.w } : { body: d.body }) +
       ';\n',
   ]));
   return { catalog, texts };
