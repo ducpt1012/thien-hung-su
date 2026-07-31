@@ -64,13 +64,18 @@ else {
     if (!seen.has(s)) warn(`docs/DANH-MUC.txt còn nhắc ${s}.mp3 nhưng bài đó không còn`);
 }
 
+// ---- dữ liệu tách cho trang (catalog + toàn văn từng bài) phải khớp book.js ----
+const stale = require('./split-book.js').diff();
+if (stale.length)
+  fail(`data/catalog.js và data/text/ lệch so với data/book.js (${stale.length} file) — chạy: npm run build:text`);
+
 // ---- các file bắt buộc ở gốc để deploy chạy được ----
-for (const f of ['index.html', '.nojekyll', '_headers', 'assets/app.css', 'assets/app.js'])
+for (const f of ['index.html', '.nojekyll', '_headers', 'assets/app.css', 'assets/app.js', 'data/catalog.js'])
   if (!fs.existsSync(path.join(ROOT, f))) fail(`thiếu ${f}`);
 
 const html = fs.existsSync(path.join(ROOT, 'index.html'))
   ? fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8') : '';
-for (const src of ['assets/app.css', 'data/book.js', 'assets/app.js'])
+for (const src of ['assets/app.css', 'data/catalog.js', 'assets/app.js'])
   if (html && !html.includes(src)) fail(`index.html không tham chiếu ${src}`);
 
 // ---- báo cáo ----

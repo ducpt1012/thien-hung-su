@@ -47,6 +47,9 @@ body{
   padding:8px 18px; color:inherit; font:inherit; font-size:14.5px; line-height:1.35;
   border-left:3px solid transparent;
 }
+/* display:block ở trên đè mất [hidden] của trình duyệt — không có dòng này thì
+   ô tìm kiếm lọc xong danh sách vẫn trơ ra đủ 114 bài */
+.it[hidden]{display:none}
 .it:hover{background:var(--accent-soft)}
 .it.on{background:var(--accent-soft); border-left-color:var(--accent); font-weight:600}
 .it .d{display:block; font-size:12px; color:var(--muted); margin-top:2px}

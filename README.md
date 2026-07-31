@@ -24,13 +24,17 @@ assets/
   app.css                  giao diện
   app.js                   danh mục, trình phát, chế độ vừa nghe vừa đọc
 data/
-  book.js                  toàn văn 114 bài (window.DATA, mỗi bài một dòng)
+  book.js                  toàn văn 114 bài (window.DATA, mỗi bài một dòng) — NGUỒN SỰ THẬT,
+                           chỉ công cụ đọc; trang web không tải file này
+  catalog.js               danh mục (window.CATALOG) — sinh từ book.js, trang nạp lúc mở
+  text/<id>.js             toàn văn một bài (window.BOOK[id]) — sinh từ book.js, nạp khi mở bài
   audio/*.mp3              114 file audio, tên file = trường `id` trong book.js
   tts-manifest.json        sha256 bản đọc đã tạo ra từng mp3, để dựng lại tăng dần
 docs/DANH-MUC.txt          danh mục kèm thời lượng
 tools/
   serve.js                 server tĩnh có HTTP Range, chỉ dùng khi chạy local
-  check-data.js            kiểm tra dữ liệu khớp audio và danh mục
+  check-data.js            kiểm tra dữ liệu khớp audio, danh mục và dữ liệu tách
+  split-book.js            tách book.js thành catalog.js + text/*.js cho trang
   build-audio.py           dựng lại mp3 từ book.js (chỉ bài đã đổi)
   sync-weights.js          ghi độ dài đoạn của bản đọc, cho chế độ vừa nghe vừa đọc
   update-catalog.js        cập nhật thời lượng trong docs/DANH-MUC.txt
@@ -53,10 +57,11 @@ npm start           # http://localhost:8080  (npm start -- 3000 để đổi c�
 npm run check       # dữ liệu có khớp file audio và danh mục không
 ```
 
-Thêm hay sửa một bài: sửa `data/book.js`, đặt file `<id>.mp3` vào `data/audio/`,
-thêm mục tương ứng vào `docs/DANH-MUC.txt`, rồi chạy `npm run check`. Thứ tự bài
-trên trang theo đúng thứ tự trong `data/book.js`; danh mục gom nhóm theo trường
-`section`. Trang web không có bước build và không có dependency nào —
+Thêm hay sửa một bài: sửa `data/book.js`, chạy `npm run build:text` (tách lại
+`data/catalog.js` + `data/text/` cho trang), đặt file `<id>.mp3` vào `data/audio/`,
+thêm mục tương ứng vào `docs/DANH-MUC.txt`, rồi chạy `npm run check` — bước check
+sẽ báo nếu quên tách lại. Thứ tự bài trên trang theo đúng thứ tự trong
+`data/book.js`; danh mục gom nhóm theo trường `section`. Không có dependency nào —
 `package.json` chỉ để giữ mấy câu lệnh trên.
 
 ## Dựng lại audio
@@ -108,13 +113,18 @@ Muốn sửa cách đọc một tên riêng thì thêm vào `lexicon/proper.tsv`
 
 - Danh mục bên trái gom theo tháng, có ô tìm tên thánh
 - Nội dung sách bên phải, chỉnh cỡ chữ, tự đổi giao diện sáng/tối
-- Trình phát: chỉnh tốc độ 0,75×–2× (giữ nguyên cao độ giọng), tự chuyển bài, nhớ chỗ đang nghe
+- Trình phát: chỉnh tốc độ 0,75×–2× (giữ nguyên cao độ giọng), hết bài tự đọc tiếp bài sau,
+  nhớ chỗ đang nghe; chọn bài không tự bật tiếng — chỉ đọc tiếp khi đang nghe dở
 - **Vừa nghe vừa đọc**: tô sáng đoạn đang phát và tự cuộn theo; kéo thanh chạy hoặc bấm vào một đoạn đều nhảy tới đúng chỗ
 - Điện thoại: danh mục dạng ngăn kéo
 
-Trang thuần HTML/CSS/JS, không framework, không bước build. Mở thẳng
-`index.html` bằng trình duyệt cũng chạy được: toàn văn nạp qua `<script src>`
-chứ không qua `fetch`, nên không vướng CORS của `file://`.
+Trang thuần HTML/CSS/JS, không framework. Mở trang chỉ tải danh mục
+(`data/catalog.js`, ~4 KB nén) nên hiện ngay và bấm nghe được ngay; toàn văn
+bài nào tải lẻ khi mở bài đó (`data/text/<id>.js`, ~2–4 KB nén), hai bài kề
+được kéo sẵn để bấm ‹ › là có chữ ngay. Mở thẳng `index.html` bằng trình duyệt
+cũng chạy được: mọi dữ liệu nạp qua `<script src>` chứ không qua `fetch`, nên
+không vướng CORS của `file://`. Ô tìm kiếm không cần gõ dấu: "le bao tinh" vẫn
+thấy "Lê Bảo Tịnh".
 
 `tools/serve.js` chỉ cần khi muốn chạy đúng như trên web — nó hỗ trợ HTTP Range
 để tua audio, thứ mà `python3 -m http.server` không có. GitHub Pages và

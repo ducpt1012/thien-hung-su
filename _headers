@@ -1,9 +1,13 @@
 # Cloudflare Pages đọc file này. GitHub Pages bỏ qua (vô hại).
-# Audio và toàn văn không bao giờ đổi nội dung dưới cùng một tên file → cache lâu.
+# Audio không bao giờ đổi nội dung dưới cùng một tên file → cache lâu.
 /data/audio/*
   Cache-Control: public, max-age=31536000, immutable
 
-/data/book.js
+# Danh mục và toàn văn từng bài có thể được sửa dưới cùng tên file → cache một ngày
+/data/catalog.js
+  Cache-Control: public, max-age=86400
+
+/data/text/*
   Cache-Control: public, max-age=86400
 
 /assets/*

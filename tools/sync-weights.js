@@ -50,3 +50,7 @@ if (!done) {
 const body = D.map(d => JSON.stringify(d)).join(',\n');
 fs.writeFileSync(BOOK, `window.DATA=[\n${body}\n];\n`);
 console.log(`đã ghi độ dài đoạn cho ${done}/${D.length} bài`);
+
+// trang đọc data/catalog.js + data/text/, không đọc thẳng book.js → tách lại luôn
+require('./split-book.js').build();
+console.log('đã tách lại data/catalog.js và data/text/');
